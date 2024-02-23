@@ -1,0 +1,7 @@
+{
+    "server": {
+      "mime": {
+        "application/javascript": ["js"]
+      }
+    }
+  }
