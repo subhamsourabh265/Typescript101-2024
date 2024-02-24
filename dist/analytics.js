@@ -1,3 +1,4 @@
+"use strict";
 console.log('anytics..');
 function sendAnalytics(data) {
     console.log(data);

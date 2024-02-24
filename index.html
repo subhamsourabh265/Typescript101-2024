@@ -5,19 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Typescript 101</title>
     <style>
-        input#num1, input#num2 {
+        input {
             width: 10vw;
             height: 33px;
             border-radius: 10px;
             outline: none;
             border: 1px solid #2810ab;
+            padding-left: 5vw;
         }
-        main {
+        main, form {
             display: flex;
             flex-direction: column;
-            height: 200px;
+            height: 400px;
             justify-content: space-evenly;
             align-items: center
+        }
+
+        form {
+            height: 150px;
         }
         button {
             width: 80px;
@@ -30,6 +35,7 @@
     </style>
 </head>
 <body>
+    <header id="app"></header>
     <main>
        <input type="number" name="num1" id="num1" placeholder="Number  1">
        <input type="number" name="num2" id="num2" placeholder="Number  2">
@@ -38,11 +44,21 @@
             Computed Value : <span id="sum1"></span>
         </div>
 
-        <input type="text" name="user-input" id="user-input">
+      <form>
+        <input type="text" name="title" id="title" placeholder="title"> 
+
+        <input type="text" name="price" id="price" placeholder="price"> 
+        
+        <button type="submit" id="submitBtn">Save</button>
+      </form>
+        
+        <button id="clickMeBtn">Click Me!</button>
     </main>
     <script type="text/javascript" src="dist/indext.js" defer></script>
     <script type="text/javascript" src="dist/app.js" defer></script>
     <script type="text/javascript" src="dist/analytics.js" defer></script>
     <script type="text/javascript" src="dist/advancedTypes.js" defer></script>
+    <script type="text/javascript" src="dist/generics.js" defer></script>
+    <script type="text/javascript" src="dist/decorators.js" defer></script>
 </body>
 </html>

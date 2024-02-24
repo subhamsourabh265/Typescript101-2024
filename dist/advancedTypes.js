@@ -1,3 +1,4 @@
+"use strict";
 // 1. Intersection Types
 // 2. Type Guards
 // 3. Discriminated Unions
